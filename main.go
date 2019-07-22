@@ -237,7 +237,7 @@ func (iv *invoicer) getIndex(w http.ResponseWriter, r *http.Request) {
         <link href="statics/style.css" rel="stylesheet">
     </head>
     <body>
-	<h1>Invoicer Web</h1>
+	<h1>Invoicer Web: J Roth version</h1>
 	<p><a href="/authenticate">Authenticate with Google</a></p>
 	</p>
         <p class="desc-invoice"></p>
