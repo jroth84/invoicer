@@ -1,6 +1,20 @@
 vendors:
+- path: cloud.google.com/go
+  rev: edd0968ab5054ee810843a77774d81069989494b
+- path: github.com/davecgh/go-spew
+  rev: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+- path: github.com/denisenkom/go-mssqldb
+  rev: e11dd26d3a7a1e7ae4ee26ae781ce10132fa71f3
+- path: github.com/erikstmartin/go-testdb
+  rev: 8d10e4a1bae52cd8b81ffdec3445890d6dccab3d
+- path: github.com/go-sql-driver/mysql
+  rev: 877a9775f06853f611fb2d4e817d92479242d1cd
+- path: github.com/gofrs/uuid
+  rev: abfe1881e60ef34074c1b8d8c63b42565c356ed6
 - path: github.com/golang/protobuf
   rev: 347cf4a86c1cb8d262994d8ef5924d4576c5b331
+- path: github.com/google/go-cmp
+  rev: 1b316004397f1f336546ca058ddb5b95c41a8772
 - path: github.com/gorilla/context
   rev: 51ce91d2eaddeca0ef29a71d766bb3634dadf729
 - path: github.com/gorilla/mux
@@ -13,17 +27,35 @@ vendors:
   rev: 9f1a7f53511168c0567b4b4b4f10ab7d21265174
 - path: github.com/jinzhu/inflection
   rev: 04140366298a54a039076d798123ffa108fff46c
+- path: github.com/jinzhu/now
+  rev: 1a6fdd4591d336a897120c50c69ed3c0e8033468
+- path: github.com/kr/pretty
+  rev: 71e7e49937503c662b9b636fd6b2c14b1aa818a5
+- path: github.com/kr/text
+  rev: e2ffdb16a802fe2bb95e2e35ff34f0e53aeef34f
 - path: github.com/lib/pq
   rev: 9eb73efc1fcc404148b56765b0d3f61d9a5ef8ee
 - path: github.com/mattn/go-sqlite3
   rev: 3fa1c550ffa69b74dc4bfd5109b4e218f32c87cf
+- path: github.com/pmezard/go-difflib
+  rev: 5d4384ee4fb2527b0a1256a821ebfc92f91efefc
+- path: github.com/stretchr/testify
+  rev: 221dbe5ed46703ee255b1da0dec05086f5035f62
 - path: github.com/wader/gormstore
   rev: 137864aca927cbee4054644cea080cfa6c8eddf7
 - path: go.mozilla.org/mozlog
   rev: 4bb13139d40339f59bf140d0f5f28be83b07cc58
+- path: golang.org/x/crypto
+  rev: 4def268fd1a49955bfb3dda92fe3db4f924f2285
 - path: golang.org/x/net
   rev: 915654e7eabcea33ae277abbecf52f0d8b7a9fdc
 - path: golang.org/x/oauth2
   rev: 5dab4167f31cbd76b407f1486c86b40748bc5073
+- path: golang.org/x/sync
+  rev: 112230192c580c3556b8cee6403af37a4fc5f28c
 - path: google.golang.org/appengine
   rev: e9657d882bb81064595ca3b56cbe2546bbabf7b1
+- path: gopkg.in/check.v1
+  rev: 788fd78401277ebd861206a03c884797c6ec5541
+- path: gopkg.in/yaml.v2
+  rev: 51d6538a90f86fe93ac480b35f37b2be17fef232
